@@ -10,8 +10,6 @@ Aligned with **UN Sustainable Development Goal 3 (Good Health & Well-Being)**, t
 * **Identify the top biometrics (features)** that contribute most to kidney disease risk.
 * **Support resource allocation** for nephrology departments in resource-constrained settings.
 
----
-
 ## 2. Data Structure & Methodology
 The analysis utilizes a clinical dataset containing physiological measures and patient history. The data was preprocessed to handle missing values and normalize scale-sensitive features before training.
 
@@ -25,8 +23,6 @@ The analysis utilizes a clinical dataset containing physiological measures and p
 3. **Training:** Implementing a Random Forest Classifier.
 4. **Evaluation:** Measuring **Recall (Sensitivity)** to prioritize minimizing missed diagnoses.
 
----
-
 ## 3. Summary
 > **Headline:** Machine Learning model achieves and **98.75%** **99.5%** accuracy in predicting CKD risk, identifying Hemoglobin and Specific Gravity as primary indicators.
 
@@ -37,7 +33,6 @@ The Random Forest model successfully classified CKD patients with high precision
 * **Recall/Sensitivity:** 100% (Critical for medical screening)
 * **Top Risk Factor:** Hypertension and Albumin
 
----
 
 ## 4. Insights Deep Dive
 
@@ -48,8 +43,6 @@ The Random Forest model successfully classified CKD patients with high precision
 ### Insight 2: Anemia as a Comorbidity
 * **Observation:** Hemoglobin and Red Blood Cell Count showed a strong negative correlation with CKD presence.
 * **Health Story:** Patients flagged for Anemia should automatically be cross-screened for renal issues, creating a more integrated patient care pathway.
-
----
 
 ## 5. Caveats & Assumptions
 * **Clinical Validation:** This model is a decision-support tool and is not intended to replace professional medical diagnosis. All predictions should be verified by a licensed nephrologist.
