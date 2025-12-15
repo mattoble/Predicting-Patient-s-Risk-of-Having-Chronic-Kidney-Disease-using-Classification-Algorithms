@@ -37,7 +37,7 @@ The Random Forest model successfully classified CKD patients with high precision
 ## 4. Insights Deep Dive
 
 ### Insight 1: The "Silent" Indicators
-* **Observation:** Feature importance analysis shows that Hypertension and Albumin levels are top predictors, often outranking Age or Blood Pressure.
+* **Observation:** Feature importance analysis shows that Hypertension and Albumin levels are top predictors.
 * **Medical Impact:** This validates that urine analysis and blood-pressure monitoring are non-invasive, high-impact screening tools. Deviations in these metrics often appear before physical symptoms.
 
 ### Insight 2: Anemia as a Comorbidity
